@@ -21,8 +21,11 @@ namespace SkiPiste
                     km = km + lift[inpnum];
                     Console.WriteLine("Your Journey is " + km + " kilometers long!");
                 }
-
-              inp = Console.ReadLine();
+                else
+                {
+                    Console.WriteLine("ungültige eingabe...");
+                }
+                inp = Console.ReadLine();
                 
             
 
